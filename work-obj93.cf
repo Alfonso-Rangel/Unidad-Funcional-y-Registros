@@ -1,0 +1,67 @@
+v 4
+file . "Datapath.vhd" "b3b3825ba367f37fe8b8a5e9f0d92b2437f73ac9" "20230621144444.346":
+  entity datapath at 1( 0) + 0 on 149;
+  architecture arch of datapath at 16( 399) + 0 on 150;
+file . "Unidad_Registros.vhd" "836fb699c45ee8aaa551399dc0b0aec9151dd3e6" "20230621062625.572":
+  entity unidad_registros at 1( 0) + 0 on 103;
+  architecture arch of unidad_registros at 13( 303) + 0 on 104;
+file . "registro.vhd" "44ec94cf4d1f9dca283bc2d1374df51da294778f" "20230621025604.932":
+  entity registro at 1( 0) + 0 on 63;
+  architecture arch of registro at 12( 232) + 0 on 64;
+file . "FFDwc.vhd" "4fd3be6221d287cd39213896a8e06afa129ea0a3" "20230621025543.024":
+  entity ffdwc at 1( 0) + 0 on 59;
+  architecture funcional of ffdwc at 13( 324) + 0 on 60;
+file . "Unidad_Aritmetica.vhd" "7e4ac07b848eca1690a69019afeef0e93fdf31b6" "20230621070529.248":
+  entity unidad_aritmetica at 1( 0) + 0 on 111;
+  architecture arch of unidad_aritmetica at 13( 269) + 0 on 112;
+file . "Sumador8Bits.vhd" "f24d236428c5ca5f9c16f93823fef428deebbdcf" "20230621023234.399":
+  entity sumador8bits at 4( 96) + 0 on 43;
+  architecture ar_sumador8bits of sumador8bits at 18( 489) + 1 on 44;
+file . "shifter.vhd" "af61af42767b8867da61ddbdf69e0ba7bb964d2a" "20230621023214.434":
+  entity shifter at 1( 0) + 0 on 39;
+  architecture arch of shifter at 12( 241) + 0 on 40;
+file . "mux4x1.vhd" "87c5bbf266e388e6ae223940226ea30e4891b366" "20230621023157.761":
+  entity mux4x1 at 1( 0) + 0 on 35;
+  architecture a_mux4x1 of mux4x1 at 12( 249) + 0 on 36;
+file . "FA.vhd" "96e5ea1c18d62561e365d1d6b33fc3ae8547de45" "20230621023138.238":
+  entity fa at 2( 14) + 0 on 31;
+  architecture ar_fa of fa at 12( 248) + 1 on 32;
+file . "Unidad_Funcional.vhd" "a87d97a9a43a581cb30d0675e8ceca82624521b9" "20230621073133.547":
+  entity unidad_funcional at 1( 0) + 0 on 141;
+  architecture arch of unidad_funcional at 13( 303) + 0 on 142;
+file . "Unidad_Logica.vhd" "456b32aeb9895fa8e75f896f734cc967d508a541" "20230621023330.090":
+  entity unidad_logica at 1( 0) + 0 on 55;
+  architecture arch of unidad_logica at 12( 252) + 0 on 56;
+file . "Unidad_Logica_tb.vhd" "f8d785c9d4f973bfb354e3f41ce9d8cbab6c34c2" "20230621023332.703":
+  entity unidad_logica_tb at 1( 0) + 0 on 57;
+  architecture arch of unidad_logica_tb at 7( 100) + 0 on 58;
+file . "Unidad_Funcional_tb.vhd" "810d12ca59d993f5c2e269303ddc9e066095b4f8" "20230621073136.777":
+  entity unidad_funcional_tb at 1( 0) + 0 on 143;
+  architecture arch of unidad_funcional_tb at 7( 106) + 0 on 144;
+file . "FA_tb.vhd" "0b5042763b27d3221e750f8b75372b1ff27c84dc" "20230621023142.044":
+  entity fa_tb at 2( 25) + 0 on 33;
+  architecture ar_fa of fa_tb at 8( 106) + 1 on 34;
+file . "mux4x1_tb.vhd" "18d686fd03f41f711780db76f1445455a1e5c21b" "20230621023206.070":
+  entity mux4x1_tb at 1( 0) + 0 on 37;
+  architecture arch of mux4x1_tb at 7( 93) + 0 on 38;
+file . "shifter_tb.vhd" "7653a28be199690cda7a4447a27977c4d5f8ac55" "20230621023221.675":
+  entity shifter_tb at 1( 0) + 0 on 41;
+  architecture arch of shifter_tb at 7( 95) + 0 on 42;
+file . "Sumador8Bits_tb.vhd" "33a09ec98ab686a9017a90e278ede4bd55499996" "20230621023237.761":
+  entity sumador8bits_tb at 1( 0) + 0 on 45;
+  architecture arch of sumador8bits_tb at 7( 105) + 0 on 46;
+file . "Unidad_Aritmetica_tb.vhd" "0a1f3c5f3da2e43dadcd78617989f4d24f33e142" "20230621070552.074":
+  entity unidad_aritmetica_tb at 1( 0) + 0 on 113;
+  architecture arch of unidad_aritmetica_tb at 7( 115) + 0 on 114;
+file . "FFDwc_tb.vhd" "114d16e88917ecacce422e70201a2195c95d654c" "20230621025546.983":
+  entity ffdwc_tb at 1( 0) + 0 on 61;
+  architecture a_ffdwc_tb of ffdwc_tb at 7( 91) + 0 on 62;
+file . "registro_tb.vhd" "16aa47d0ef6477223671fb82547af7ed4865d620" "20230621061326.954":
+  entity registro_tb at 1( 0) + 0 on 95;
+  architecture arch of registro_tb at 7( 90) + 0 on 96;
+file . "Unidad_Registros_tb.vhd" "630686a873265efd6177f8155295285d2f598716" "20230621062628.394":
+  entity unidad_registros_tb at 1( 0) + 0 on 105;
+  architecture arch of unidad_registros_tb at 7( 106) + 0 on 106;
+file . "Datapath_tb.vhd" "236cd10905a9328e310e8ba9aca76861ae12ed66" "20230621144447.770":
+  entity datapath_tb at 1( 0) + 0 on 151;
+  architecture arch of datapath_tb at 7( 90) + 0 on 152;
